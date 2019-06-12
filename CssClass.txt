@@ -1,0 +1,50 @@
+css :use for change tag/element  style/attribute 
+
+how to use :
+	1. inline 
+	2. internal
+	3. external
+	
+	how add css in element 
+		1. by tag name (div/p/img/table)
+		2. by class name (.ClassName) using dot(.)
+		3. by id (#id) using has tag(#)
+		
+css meserment 
+	1: px
+	2. %
+
+color 
+	background-color
+color: text color(for groundcolor) 	
+
+write color in three way 
+	>color name (red green)
+	>rgb(22,34,56)
+		rgb	
+		r:red
+		g:green
+		b: blue
+		0-255
+		ex: rgb(210,59,198)
+	>Hexadecimal #23ee23 (0-16)	
+				   r g	b
+				   
+				   o-9
+				   10 a
+				   11 b
+				   12 c`
+				   13 d
+				   14 e
+				   15 f
+margin-top:5px			   
+margin-right:15px				   
+margin-buttom: 20px				   
+margin-left	:30px
+
+shorcut
+	margin:5px 15px 20px 30px
+	margin:5px 10px
+	margin:5px
+	
+				   
