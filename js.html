@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+
+function num()
+{
+var n1;
+n1=document.getElementById("n1").value;
+console.log(typeof(n1));
+n1=parseInt(n1);
+var res1=n1*n1;
+var res2=n1*n1*n1;
+console.log(res1);
+console.log(res2);
+
+document.getElementById("res1").value=res1;
+document.getElementById("res2").value=res2;
+}
+
+</script>
+</head>
+<body>
+<input type="text" id="n1" placeholder="first number" />
+<input type="text" id="res1" placeholder="Result"/>
+<input type="text" id="res2" placeholder="Result"/>
+<p><button onclick="num();">Onclick function </button></p>
+
+</body>
+
+</html>
