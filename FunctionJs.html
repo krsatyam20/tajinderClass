@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<script>
+/* function: is a block whichr is write once a time and reuse more than one time 
+	advantage:
+		shorting of program
+		10+20
+		20+30
+		40+80
+types of function 
+	System define
+		predefine 
+		
+			ex: alert()
+				document.write() 
+				console.log()
+	user define 
+	 which function define/create  by user 
+		snhejeetSum()
+call/use a function 
+
+			using event attributes
+				onmouse
+					onclick
+					ondblclick
+					
+				onkeyboard
+				onkeydown
+				onkeypress
+				onkeyup
+
+
+types of function 
+
+1.> No arguments no return 
+2.> With arguments no return 
+3.> With arguments with return 
+4.> No arguments with return 
+
+				*/
+				
+//1.> No arguments no return 
+				
+function snhejeetSum(){
+
+//logic here 
+console.log("hello Guru Raj");
+
+}
+
+
+
+//2.> With arguments no return 
+function add(x,y) {
+
+var z= x+y;
+console.log(z);
+
+}		
+
+
+//3.> With arguments with return 
+
+function addR(x,y) {
+
+var z= x+y;
+return z;
+
+}
+
+function show(l,k){
+
+var res=addR(l,k);
+console.log(res);
+}		
+</script>
+
+</head>
+<body>
+<button  onclick="snhejeetSum();">OnClick </button>
+<button  onclick="add(10,20);">OnClick with arguments no return </button>
+<button  onclick="show(12,3);">OnClick with arguments with return </button>
+
+</body>
+</html>
