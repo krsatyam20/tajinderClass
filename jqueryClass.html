@@ -1,0 +1,44 @@
+<!-- Jquery : java script library file  pre define function  which we use according project -->
+<html>
+<head>
+<style>
+
+.showDiv{ display:none; }
+</style>
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="jquery-3.4.1.js"> </script>
+<script>
+
+/*
+$(tagname) //tagname
+$("#id") // id
+
+$(".id") // acces by class
+*/
+$(document).ready(function(){
+
+//$("p").hide();
+$("p").click(function(){
+ $(this).hide();
+
+});
+$("#click").click(function(){
+
+  $("#showDiv").show();
+  $("#showDiv").css({color:'red',height:'150px',backgroundColor:'yellow'});
+});
+
+});
+
+</script>
+</head>
+<body>
+
+<p>hello</p>
+<p>hello1</p>
+<p>hello2</p>
+<p>hello3</p>
+<div id="click">Click Me </div>
+<div id="showDiv" class="showDiv">Hello Student Welcom in Jquery World. </div>
+</body>
+</html>
