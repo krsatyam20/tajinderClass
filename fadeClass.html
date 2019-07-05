@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+
+$("#btn").click(function(){
+
+//$("#div1").fadeIn(3000);
+//$("#div1").fadeOut();
+$("#div1").fadeToggle();
+$("#div2").animate({
+      left: '250px',
+      opacity: '0.5',
+      height: '350px',
+      width: '350px'
+    });
+ });
+
+});
+</script>
+</head>
+<body>
+ <button id="btn">click here</button>
+<div style="border:1px solid red;width:150px;height:150px; background-color:red;display:none;" id="div1"></div>
+
+<div style="border:1px solid red;width:150px;height:150px; background-color:red;" id="div2"></div>
+</body>
+</html>
