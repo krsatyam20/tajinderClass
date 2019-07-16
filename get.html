@@ -1,0 +1,44 @@
+<!-- Jquery : java script library file  pre define function  which we use according project -->
+<html>
+<head>
+<style>
+
+.showDiv{ display:none; }
+</style>
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="jquery-3.4.1.js"> </script>
+<script>
+
+$(document).ready(function(){
+
+$("#chekAdd").click(function(){
+
+	var lValue=$("#last").val();
+	var fValue=$("#first").val();
+	var aValue=$("#add").val();
+
+
+
+	});
+
+});
+
+</script>
+</head>
+<body>
+<div>Present
+<p><label>Last Name</label> <input type="text" id="last" placeholder="First Name"/> </p>
+<p><label>First Name</label> <input type="text" id="first" placeholder="Last Name"/> </p>
+<p><label>address</label> <input type="text" id="add" placeholder="Address"/> </p>
+
+</div>
+<div><input type="button" id="chekAdd" /><span>present Address as permanent Address ?</span></div>
+<div>Permanent
+<p><label>Last Name</label> <input type="text"  placeholder="First Name"/> </p>
+<p><label>First Name</label> <input type="text"  placeholder="Last Name"/> </p>
+<p><label>address</label> <input type="text"  placeholder="Address"/> </p>
+<p> <input type="Submit" name="sub" value="login" /> </p>
+</div>
+
+</body>
+</html>

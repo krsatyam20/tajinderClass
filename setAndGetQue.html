@@ -1,0 +1,42 @@
+<!-- Jquery : java script library file  pre define function  which we use according project -->
+<html>
+<head>
+<style>
+
+.showDiv{ display:none; }
+</style>
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="jquery-3.4.1.js"> </script>
+<script>
+
+$(document).ready(function(){
+
+//$("p").hide();
+$("#btnClick").click(function(){
+$("#add").after("<p><label>address</label> <input type='text' placeholder='Address'/> </p>");
+
+});
+
+});
+
+</script>
+</head>
+<body>
+<div>Present
+<p><label>Last Name</label> <input type="text"  placeholder="First Name"/> </p>
+<p><label>First Name</label> <input type="text" placeholder="Last Name"/> </p>
+<p id="add"><label>address</label> <input type="text" placeholder="Address"/> </p>
+<button id="btnClick" >Add new Address</button>
+<p> <input type="Submit" name="sub" value="login" /> </p>
+</div>
+<div><input type="checkbox" id="chekAdd" /><span>present Address as permanent Address ?
+<div>Permanent
+<p><label>Last Name</label> <input type="text"  placeholder="First Name"/> </p>
+<p><label>First Name</label> <input type="text" placeholder="Last Name"/> </p>
+<p id="add"><label>address</label> <input type="text" placeholder="Address"/> </p>
+<button id="btnClick" >Add new Address</button>
+<p> <input type="Submit" name="sub" value="login" /> </p>
+</div>
+
+</body>
+</html>

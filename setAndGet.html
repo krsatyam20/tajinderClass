@@ -1,0 +1,48 @@
+<!-- Jquery : java script library file  pre define function  which we use according project -->
+<html>
+<head>
+<style>
+
+.showDiv{ display:none; }
+</style>
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="jquery-3.4.1.js"> </script>
+<script>
+
+$(document).ready(function(){
+
+//$("p").hide();
+$("#btnClick").click(function(){
+
+var textValue=$("#aone").text("Hello student");
+ textValue=$("#aone").text();
+
+
+//var htmlValue=$("#aone").html();
+var inValue=$("#inputValue").val("100");
+ inValue=$("#inputValue").val();
+console.log(textValue);
+//console.log(htmlValue);
+console.log(inValue);
+alert($("#attDiv").attr("href"));
+$("p").append("Some appended text.");
+$("p").prepend("Some prepend text.");
+$("p").after("<b>Some after text</b>");
+$("p").before("<h1>Some before text.</h1>");
+});
+
+});
+
+</script>
+</head>
+<body>
+
+<p id="aone">hello text</p>
+<input type="text" value="10" id="inputValue" />
+<p>hello1</p>
+<p>hello2</p>
+<p>hello3</p>
+<div ><a id="attDiv" href="google.co.in"> Jquery Class</a </div>
+<button id="btnClick">Click Me </button>
+</body>
+</html>
