@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+.pclass{
+
+height:150px;
+background-color:blue;color:red;
+margin:20px 30px;
+
+
+}
+</style>
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="jquery-3.4.1.js"> </script>
+<script>
+
+$(document).ready(function(){
+    
+	$("p").click(function(){
+	 
+	 //$(this).remove();
+	 $(this).addClass("pclass");
+	 console.log($(this).width());
+	 console.log($(this).height());
+	 console.log($(this).innerWidth());
+	 console.log($(this).innerHeight());
+	 console.log($(this).outerWidth());
+	 console.log($(this).outerHeight());
+	 $("#pone").css({'background-color':'red','color':'#fff'});
+    
+	});
+
+});
+
+</script>
+</head>
+<body>
+
+<p>hello</p>
+<p>hello1</p>
+<p>hello2</p>
+<p id="pone">hello3</p>
+
+
+
+
+</body>
+</html>
