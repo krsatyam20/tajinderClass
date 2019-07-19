@@ -1,0 +1,65 @@
+html 
+css
+	bootstrap
+js
+ jquery
+ 
+ 
+ php (10 days)
+ 
+ database (3 days)
+    mysql 
+
+
+Server 
+	apache
+	php compiler
+	mysql compiler 
+		Xampp(s/w which is a package of apache/php/mysql)
+		Wampp(s/w which is a package of apache/php/mysql)
+		Linux/MAC
+			Lampp(s/w which is a package of apache/php/mysql)
+			
+			
+xampp 
+  c://xampp/htdocs/tajinder/index.php
+	url:localhost/tajinder/index.php
+		127.0.0.1/tajinder/index.php
+		
+		
+start server 
+
+how to access mysql
+ 
+ c> cd xampp/mysql/bin
+ c/cd xampp/mysql/bin> mysql -uroot -p  
+	here -u is user 
+		user name bydeafult is root
+		-p password
+		here password is blank
+		
+GUI 
+	hiedSql
+    mysqlWorkBench
+	http://localhost/phpmyadmin (type in any browser url)	
+	
+	
+sql 
+	create database
+	
+syn:
+	create database databaseName
+ex:
+	create database tajinder
+delete database	
+	drop database databaseName	
+	drop database tajinder
+
+show all database
+syn	
+	show databases
+	
+		
+ 
+		
+			

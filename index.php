@@ -1,53 +1,123 @@
-<!-- Comment: ignore by compiler 
+<?php
+//start here
 
-Tag 
-	single  <tagName /> <br/><img />
-	
-	Pair  <tagName>(open tag)   </tagName>
-	<html>	</html>
-	<body>	</body>
--->
-<?php 
-//create a variable  and assign the value on variable
-//variable: is a memory location where store our data/value  
+//print any thing 
+echo "hello tajinder";
+
+// single line comment 
+
+/* multiple line comment  */
+
+//create a variable
+
 $a=10;
-$b=20;
-// addition of value 
+
+echo "</br>".$a;
+$a=10.12;
+
+echo "</br>".$a;
+$a="h";
+
+echo "</br>".$a;
+$name="tajinder";
+
+echo "</br>".$name;
+
+
+$a=70;
+$b=10;
 $c= $a+$b;
 
-?>
-<html>
-	<head> 
-	
-	
-	<style>
-	/* .main{background-color:red;}*/
-	
-	
-	</style>
-	
-	</head>
-	
-	
-	<body class="main">
-		<p> Hello</p>
-		<!-- px or % for meserment -->
-		<div>
-		<img src="Chrysanthemum.jpg" width="150px;" height="150px;" />
-		</div>
-		<!-- inline css -->
-		<div style="width:20%; float:left;">Hello</div>
-		<div style="width:20%; float:left;">Hello</div>
-		<div style="width:20%; float:left;" onclick="hello();">Hello <?php echo "student"; ?></div>
+echo "</br> add Value of a and b= ".$c;
 
-<h1> <?php echo $c ; ?> </h1>
+$b=40;
 
-	</body>
-	<script>
-	function hello(){
-	alert("Hello student");
+
+if($a>$b){
 	
+	echo "A is GT";
+}
+else {
+	
+	
+echo "B is GT";
+	
+}
+	
+	
+$a=10;
+$b=40;
+$c=30;
+	
+if($a >$b)
+  {
+	if($a>$c)
+	{
+     echo "A is GT";		
 	}
+	else
+	{
 	
-	</script>
-</html>
+	echo "C is GT";
+	}
+  }	
+else
+ {
+	if($b>$c)
+	{
+
+     echo "B is GT";		
+	}
+	else
+	{
+	
+	echo "C is GT";
+	}	  
+ }	  
+  
+  
+$x='tajinder';
+
+
+switch($x){
+
+case 'red':
+	echo "Case is red";
+	break;
+
+case 'yellow':
+	echo "Case is Yellow";
+	break;
+	
+
+case 'green':
+	echo "Case is Green";
+	break;
+
+case 'black':
+	echo "Case is Black";
+	break;
+default:
+	echo "Default Case"	;
+
+
+
+
+
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//close here
+?> 
