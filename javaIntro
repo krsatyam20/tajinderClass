@@ -1,0 +1,43 @@
+java : pure object oriented programing language 
+		each and every thing difine within a class
+		
+core java
+	Basic and oops with Database Conection 
+	
+Advance Java	
+    Web application 
+		forntend
+			Html
+			css/bootstrap
+			java script/jquery
+		backend
+			java servlet
+			struts
+			hibernate(ORM tools/database tools)
+			
+
+core java
+
+ Tools
+		JDK(Java development kit)
+			jre(java runtime environment)
+			jvm(java virtual machine)
+	IDE
+		Notepad/Eclips/netbeans/atom/visualstudio
+	
+ Environment setup
+		=> Control Panel\All Control Panel Items\System
+		=> Then Click Advance System seting option
+		=>Then click Environment variable option 
+		=>Then click new option from system variable.
+		=> Then give variable name: JAVA_HOME
+		=> Then give variable Value: location of jdk path(C:\Program Files\Java\jdk1.8.0_211\bin)
+	Check java Environment setup is set or not 
+		=>Open cmd then write java -version if show java version means java install and setup success either not.
+		
+Write a simple program.
+
+   using notepad
+		
+		
+		=>	
