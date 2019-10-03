@@ -1,0 +1,27 @@
+oops (object oreinted programing system)
+    
+	object:what evre you seen 
+			ex: book,pen,man,student,animal
+	class:collection of object or blue print of object
+		 Animal:	
+				dog
+				cat
+				cow
+				lion
+				elephent
+			
+	inheritance
+		single level  
+		multilabel level
+		multiple 
+		
+		
+    polymorphism
+    overloading
+    overriding
+    cunstructor
+    encapsulation
+    abstraction 
+
+ 	
+				
