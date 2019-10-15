@@ -1,0 +1,28 @@
+constructor: like a method which is self calling function 
+	means if any class call then constructor is call
+	class name and function name should be same.
+	
+no need to define return type
+no need to define function keyword
+
+constructor has two types:
+		with parameters/arguments
+		no arguments
+		
+		
+		
+class student{
+//no arguments constructor
+student(){
+
+}
+
+}		
+
+class student{
+//with arguments constructor
+student(int a, int b){
+
+}
+
+}
